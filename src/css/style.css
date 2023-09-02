@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap");
+.container {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: bold;
+}
+
+.navigation {
+  margin-right: 4rem;
+}
+@media (max-width: 600px) {
+  .navigation {
+    margin-right: 1rem;
+  }
+}
+
+.logo {
+  margin-left: 2rem;
+  color: whitesmoke;
+  text-shadow: 4px 3px 4px black;
+}
+@media (max-width: 300px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 301px) and (max-width: 600px) {
+  .logo {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .nav-item {
+    font-size: 0.9rem;
+  }
+}
+.main {
+  margin-top: 5rem;
+}
+
+.banner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+  height: auto;
+}
+@media (max-width: 300px) {
+  .banner {
+    padding-top: 3vh;
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    padding-top: 3vh;
+  }
+}
+
+.home__text {
+  padding-top: 10vh;
+}
+@media (max-width: 450px) {
+  .home__text {
+    padding-top: 20vh;
+  }
+}
+@media (min-width: 451px) and (max-width: 599px) {
+  .home__text {
+    padding-top: 25vh;
+  }
+}
+@media (min-width: 600px) and (max-width: 730px) {
+  .home__text {
+    padding-top: 2vh;
+  }
+}
+@media (min-width: 731px) and (max-width: 990px) {
+  .home__text {
+    padding-top: 4vh;
+  }
+}
+
+.home__text-title {
+  font-weight: bold;
+}
+@media (min-width: 551px) and (max-width: 990px) {
+  .home__text-title {
+    width: 50vw;
+  }
+}/*# sourceMappingURL=style.css.map */

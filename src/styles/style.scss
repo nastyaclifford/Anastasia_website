@@ -1,0 +1,77 @@
+@import "./fonts.scss";
+
+.container{
+    @include font-nav;
+}
+
+
+.navigation {
+    margin-right: 4rem;
+    @media (max-width: 600px) {
+            margin-right: 1rem;
+        }
+}
+
+.logo {
+    margin-left: 2rem;
+    color: whitesmoke;
+    text-shadow: 4px 3px 4px black;
+    @media (max-width: 300px) {
+            font-size: 1.8rem;
+    }
+    @media (min-width: 301px) and (max-width: 600px) {
+            margin-left: 1rem;
+        }
+    }
+
+
+@media (max-width: 300px) {
+    .nav-item {
+        font-size: 0.9rem;
+    }
+}
+
+.main{
+    margin-top: 5rem;
+}
+
+.banner {
+    position:absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index:-1;
+    height: auto;
+
+@media (max-width: 300px) {
+    padding-top: 3vh;
+}
+@media (max-width: 600px) {
+    padding-top: 3vh;
+    }
+}
+
+.home__text{
+    padding-top: 10vh;
+    @media (max-width: 450px) {
+        padding-top: 20vh;
+        }
+        @media (min-width: 451px) and (max-width: 599px) {
+            padding-top: 25vh;
+            }
+            @media (min-width: 600px) and (max-width: 730px) {
+                padding-top: 2vh;
+                }
+            @media (min-width: 731px) and (max-width: 990px) {
+                padding-top: 4vh;
+                }
+}
+
+.home__text-title{
+    font-weight: bold;
+    @media (min-width: 551px) and (max-width: 990px) {
+        width: 50vw;}
+}
+
+
+
